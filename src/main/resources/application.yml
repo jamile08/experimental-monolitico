@@ -1,0 +1,31 @@
+server:
+  port: 8396
+  servlet:
+    context-path: /ucsalAPIRestSomatorio
+  compression:
+    enabled: true
+    min-response-size: 1024
+    mime-types: text/html, text/xml, text/plain, text/css, text/javascript, application/javascript, application/json
+    
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+info:
+  tags:
+    environment: Somatorio
+spring:
+  main:
+    allow-bean-definition-overriding: true
+    allow-circular-references: true 
+  application:
+    name: ucsalAPIRestSomatorio
+
+         
+  
+   
