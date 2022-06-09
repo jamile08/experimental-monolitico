@@ -10,7 +10,7 @@ import ucsal.microservicesomatorio.model.ListModel;
 @Service
 public class SomatorioService {
 
-	public List<Integer> getValorSomatorio(ListModel parametros) {
+	public List<Integer> getValorSomatorio(ListModel parametros, long start) {
 
 		List<Integer> thirdVector = new ArrayList<>();
 
@@ -18,7 +18,8 @@ public class SomatorioService {
 			thirdVector.add(parametros.getFirstVector().get(i) + parametros.getSecondVector().get(i));
 			System.out.println(thirdVector.get(i));
 		}
-
+		long delay = System.currentTimeMillis() - start;
+		System.out.println("Demorou " + delay + " milissegundos");
 		return thirdVector;
 	}
 }

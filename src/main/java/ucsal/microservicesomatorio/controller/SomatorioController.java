@@ -23,10 +23,11 @@ public class SomatorioController {
 	
 	@GetMapping("/getvalorsomatorio")
 	public ResponseEntity<?> getValorSomatorio(@RequestBody ListModel parametros) {
-
-		try {
 		
-			return new ResponseEntity<List<Integer>>(somatorioService.getValorSomatorio(parametros), HttpStatus.OK);
+		long start  = System.currentTimeMillis();
+		
+		try {
+			return new ResponseEntity<List<Integer>>(somatorioService.getValorSomatorio(parametros, start), HttpStatus.OK);
 		}   
 		catch (Exception e) {
 
