@@ -1,4 +1,4 @@
-package br.ucsal.algoritimomonolitico;
+package br.ucsal.algoritimomonolitico.util;
 
 import java.util.ArrayList;
 import java.util.Random;

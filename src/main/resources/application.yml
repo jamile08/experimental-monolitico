@@ -1,7 +1,7 @@
 server:
   port: 8396
   servlet:
-    context-path: /ucsalAPIRestSomatorio
+    context-path: /ucsalAPIRestMonoliticoSomatorio
   compression:
     enabled: true
     min-response-size: 1024
@@ -24,7 +24,7 @@ spring:
     allow-bean-definition-overriding: true
     allow-circular-references: true 
   application:
-    name: ucsalAPIRestSomatorio
+    name: ucsalAPIRestMonoliticoSomatorio
 
          
   
