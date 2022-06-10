@@ -1,4 +1,4 @@
-package ucsal.microservicesomatorio.controller;
+package br.ucsal.algoritimomonolitico.controller;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import ucsal.microservicesomatorio.model.ListModel;
-import ucsal.microservicesomatorio.service.SomatorioService;
-import ucsal.microservicesomatorio.util.Erro;
+import br.ucsal.algoritimomonolitico.model.ListModel;
+import br.ucsal.algoritimomonolitico.service.SomatorioService;
+import br.ucsal.algoritimomonolitico.util.Erro;
 
 @RestController
 @RequestMapping(value = "/sum")

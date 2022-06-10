@@ -1,4 +1,4 @@
-package ucsal.microservicesomatorio;
+package br.ucsal.algoritimomonolitico;
 
 import java.util.ArrayList;
 import java.util.Random;

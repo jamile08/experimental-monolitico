@@ -1,4 +1,4 @@
-package ucsal.microservicesomatorio.util;
+package br.ucsal.algoritimomonolitico.util;
 
 import java.io.Serializable;
 

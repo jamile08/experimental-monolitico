@@ -1,4 +1,4 @@
-package ucsal.microservicesomatorio;
+package br.ucsal.algoritimomonolitico;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,10 +6,9 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
-public class MicroserviceSomatorioApplication {
+public class SomatorioApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroserviceSomatorioApplication.class, args);
+		SpringApplication.run(SomatorioApplication.class, args);
 	}
-
 }

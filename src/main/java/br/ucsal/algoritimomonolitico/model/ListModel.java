@@ -1,4 +1,4 @@
-package ucsal.microservicesomatorio.model;
+package br.ucsal.algoritimomonolitico.model;
 
 import java.io.Serializable;
 import java.util.List;

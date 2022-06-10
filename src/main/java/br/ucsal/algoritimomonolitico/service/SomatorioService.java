@@ -1,11 +1,11 @@
-package ucsal.microservicesomatorio.service;
+package br.ucsal.algoritimomonolitico.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import ucsal.microservicesomatorio.model.ListModel;
+import br.ucsal.algoritimomonolitico.model.ListModel;
 
 @Service
 public class SomatorioService {
