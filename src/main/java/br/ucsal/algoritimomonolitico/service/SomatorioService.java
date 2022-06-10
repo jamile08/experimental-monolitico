@@ -18,8 +18,13 @@ public class SomatorioService {
 			thirdVector.add(parametros.getFirstVector().get(i) + parametros.getSecondVector().get(i));
 			System.out.println(thirdVector.get(i));
 		}
+		
+		System.out.println("tamanho vetor: " + thirdVector.size());
+		
 		long delay = System.currentTimeMillis() - start;
+		
 		System.out.println("Demorou " + delay + " milissegundos");
+		
 		return thirdVector;
 	}
 }

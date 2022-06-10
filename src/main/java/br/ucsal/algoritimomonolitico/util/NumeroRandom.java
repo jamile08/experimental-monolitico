@@ -7,7 +7,7 @@ public class NumeroRandom {
 
 	public static void main(String[] args) {
 
-		ArrayList<Integer> list = getRandomNonRepeatingIntegers(100, 1, 10000);
+		ArrayList<Integer> list = getRandomNonRepeatingIntegers(1836, 1, 1836);
 		for (int i = 0; i < list.size(); i++) {
 			System.out.print(list.get(i) + ", ");
 		}
